@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作业</title>
+    <link rel="stylesheet" href="index.js">
+    <style>
+        body{
+            position: relative;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            position:absolute;
+            top: 100px;
+            right: 100px;
+            width: 250px;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-around;
+        }
+        li{
+            cursor: pointer;
+            width: 50px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 5px;
+            background-color: orange;
+            margin: 15px 15px;
+            list-style: none;
+            text-align: center;
+            color: white;
+        }
+        #img{
+            position: absolute;
+            left: 50px;
+            top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li id="leftUp">左上</li>
+            <li id="goUp">向上</li>
+            <li id="rightUp">右上</li>
+            <li id="goLeft">左</li>
+            <li id="stop">停止</li>
+            <li id="goRight">右</li>
+            <li id="leftDown">左下</li>
+            <li id="goDown">向下</li>
+            <li id="rightDown">右下</li>
+        </ul>
+    <img src="images/down-0.png" alt="" id="img">
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
